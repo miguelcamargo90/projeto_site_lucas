@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./components/About";
+import AboutUs from "./components/About_us";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -11,8 +12,8 @@ export default function App() {
 
   const appStyle = {
     backgroundImage: `url(${headerBackground})`, // Defina a imagem de fundo
-    backgroundSize: "contain", // Ajuste o tamanho da imagem de fundo
-    backgroundPosition: "center center", // Centralize a imagem vertical e horizontalmente.
+    backgroundSize: "auto", // Ajuste o tamanho da imagem de fundo
+    backgroundPosition: "center", // Centralize a imagem vertical e horizontalmente.
     backgroundRepeat: "no-repeat", // Evite repetição da imagem
     backgroundAttachment: "fixed",
   };
@@ -21,6 +22,7 @@ export default function App() {
     <main className="text-gray-400 bg-gray-900 body-font" style={appStyle}>
       <Navbar />
       <About />
+      <AboutUs />
       <Projects />
       <Skills />
       <Testimonials />

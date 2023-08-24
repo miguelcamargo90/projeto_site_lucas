@@ -10,11 +10,14 @@ export default function Navbar() {
           <img src={logo} alt="Logo" className="w-60 h-40 md:w-400 md:h-250" />
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:text-black">
+          <a href="#about_us" className="mr-5 hover:text-black">
             Sobre nós
           </a>
+          <a href="#projects" className="mr-5 hover:text-black">
+            Trabalhos Executados
+          </a>
           <a href="#skills" className="mr-5 hover:text-black">
-            Portifólio
+            Produtos e Tecnologias
           </a>
           <a href="#testimonials" className="mr-5 hover:text-black">
             Depoimentos
