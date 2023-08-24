@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-site_lucas_project",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-site_lucas_project",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

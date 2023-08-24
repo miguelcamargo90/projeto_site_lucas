@@ -17,8 +17,8 @@ export default function About() {
 
 <div className="lg:max-w-lg lg:pr-24 md:w-1/2 w-5/6 text-right">
   <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-    Olá sou Lucas Nini.
-    <br className="hidden lg:inline-block" />São 19 anos de experiência para você contratar o serviço certo.
+    Olá sou Lucas Nini!
+    <br className="hidden lg:inline-block" />Tenho 19 anos de experiência em Comunicação Visual, para você ter a certeza em contratar o serviço certo.
   </h1>
   <p className="mb-8 leading-relaxed">
     Empresa de Comunicação Visual, onde fazemos para você desde o layout até a instalação!

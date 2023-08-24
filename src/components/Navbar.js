@@ -6,20 +6,18 @@ export default function Navbar() {
   return (
     <header className="bg-white md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            <img src={logo} alt="Logo" className="w-40 h-50" />
-          </a>
+        <a href="#about" className="ml-3 text-xl">
+          <img src={logo} alt="Logo" className="w-60 h-40 md:w-400 md:h-250" />
         </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="mr-5 hover:text-black">
-            Trabalhos executados
+            Sobre nós
           </a>
           <a href="#skills" className="mr-5 hover:text-black">
-            Produtos
+            Portifólio
           </a>
           <a href="#testimonials" className="mr-5 hover:text-black">
-            Nossos Clientes
+            Depoimentos
           </a>
         </nav>
         <a

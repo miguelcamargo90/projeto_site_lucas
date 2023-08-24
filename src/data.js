@@ -7,42 +7,42 @@ import project6Image from "./images/fachada_6.jpg";
 
 export const projects = [
   {
-    title: "React Reserve",
+    title: "Letra Caixa",
     subtitle: "MERN Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: project1Image,
   },
   {
-    title: "React Tracks",
+    title: "Backlight",
     subtitle: "React and Python",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: project2Image,
   },
   {
-    title: "DevChat",
+    title: "Fachada",
     subtitle: "React and Firebase",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: project3Image,
   },
   {
-    title: "Epic Todo App",
+    title: "Letra Caixa",
     subtitle: "React Hooks",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: project4Image,
   },
   {
-    title: "Epic Todo App",
+    title: "Troféu",
     subtitle: "React Hooks",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: project5Image,
   },
   {
-    title: "Epic Todo App",
+    title: "Backlight",
     subtitle: "React Hooks",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
