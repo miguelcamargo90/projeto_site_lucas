@@ -61,10 +61,10 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "Fachada",
-  "Letra Caixa COM e SEM iluminação",
-  "Backlight",
-  "Acrílico",
-  "Placas",
-  "Sinalização Industrial",
+  "Corte Router",
+  "Corte a Laser",
+  "Soldas em 45º",
+  "Instaladores com NR-35 e NR-18",
+  "Emissão de Contrato de Prestação de Serviço",
+  "Layouts em 3D",
 ];

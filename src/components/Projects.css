@@ -63,4 +63,14 @@
   .carousel-control:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
+ 
   
+  .project-title {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    color: #ff9900; /* Cor do texto */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    margin-bottom: 1rem; /* Margem inferior para espaçamento */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+  }

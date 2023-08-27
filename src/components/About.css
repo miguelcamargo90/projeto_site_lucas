@@ -1,0 +1,7 @@
+/* Adicione esses estilos no seu arquivo CSS */
+.text-container {
+    max-width: 400px; /* Largura máxima do contêiner de texto */
+    margin-left: auto; /* Alinhe o contêiner de texto à direita */
+    text-align: left; /* Alinhe o texto à esquerda */
+  }
+  

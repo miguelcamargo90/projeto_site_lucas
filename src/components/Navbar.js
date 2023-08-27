@@ -17,7 +17,7 @@ export default function Navbar() {
             Trabalhos Executados
           </a>
           <a href="#skills" className="mr-5 hover:text-black">
-            Produtos e Tecnologias
+            Nossos Diferenciais
           </a>
           <a href="#testimonials" className="mr-5 hover:text-black">
             Depoimentos

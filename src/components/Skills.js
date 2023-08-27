@@ -18,17 +18,17 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 project-title">
           <span
             className="text-white-1000 cursor-pointer shadow-lg"
             onClick={openModal}
           >
-            Produtos &amp; Tecnologias
+            Nossos &amp; Diferenciais
           </span>{" "}
           </h1>
-          <p className="text-xl text-white leading-relaxed xl:w-3/5 lg:w-4/5 mx-auto shadow-md">
+          {/* <p className="text-xl text-white leading-relaxed xl:w-3/5 lg:w-4/5 mx-auto shadow-md">
             Além de Fachadas e Painéis nós também produzimos{" "} outros produtos de outros materiais com a máxima qualidade.
-          </p>
+          </p> */}
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
