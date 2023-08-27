@@ -1,52 +1,45 @@
-import project1Image from "./images/fachada_1.jpg"; 
-import project2Image from "./images/fachada_2.jpg";
-import project3Image from "./images/fachada_3.jpg";
-import project4Image from "./images/fachada_4.jpg";
-import project5Image from "./images/fachada_5.jpg";
-import project6Image from "./images/fachada_6.jpg";
+import images from "./fotos/importImages.js";
 
 export const projects = [
   {
     title: "Letra Caixa",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: project1Image,
+    type: "letracaixa",
+    image: images.letracaixa,
   },
   {
     title: "Backlight",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: project2Image,
+    type: "backlight",
+    image: images.backlight,
+  },
+  {
+    title: "Acrilico",
+    type: "acrilico",
+    image: images.acrilico,
   },
   {
     title: "Fachada",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: project3Image,
+    type: "fachada",
+    image: images.fachada,
   },
   {
-    title: "Letra Caixa",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: project4Image,
+    title: "Led_Neon",
+    type: "ledneon", // Manter em minúsculas
+    image: images.ledneon, // Manter em minúsculas
   },
   {
-    title: "Troféu",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: project5Image,
+    title: "Placas",
+    type: "placas",
+    image: images.placas,
   },
   {
-    title: "Backlight",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: project6Image,
+    title: "Totem",
+    type: "totem",
+    image: images.totem,
+  },
+  {
+    title: "Trofeus",
+    type: "trofeus",
+    image: images.trofeus,
   },
 ];
 
