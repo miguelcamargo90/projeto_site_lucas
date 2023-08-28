@@ -5,7 +5,7 @@ import logo from "../images/logo.png";
 export default function Navbar() {
   return (
     <header className="bg-white md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
         <a href="#about" className="ml-3 text-xl">
           <img src={logo} alt="Logo" className="w-60 h-40 md:w-400 md:h-250" />
         </a>

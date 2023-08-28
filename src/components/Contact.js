@@ -5,6 +5,7 @@ import emailIcon from "../images/email.png";
 
 
 export default function Contact() {
+  const currentYear = new Date().getFullYear(); // Obtém o ano atual
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -97,6 +98,9 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <footer className="text-center text-white py-4">
+        <p>&copy; {currentYear} Miguel Camargo - Desenvolvedor - Todos os direitos reservados</p>
+      </footer>
     </section>
   );
 }
