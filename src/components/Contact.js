@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div className="text-lg mb-4 lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-end relative">
           <iframe
             width="100%"
             height="100%"
@@ -44,9 +44,9 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 px-6 mt-8 lg:mt-0">
-          <div className="bg-gray-800 rounded flex p-4 h-full flex-col items-center">
-            <h1 className="title-font font-medium text-white text-center text-lg mb-4">
+        <div className="lg:w-2/4 px-6 mt-8 lg:mt-0 text-lg mb-4">
+          <div className="bg-gray-800 rounded flex p-4 h-full flex-col items-justify">
+            <h1 className="title-font font-larger text-white text-center text-lg mb-4">
               Nossos Contatos:
             </h1>
             <div className="flex items-center mb-5">
@@ -79,7 +79,7 @@ export default function Contact() {
                 <p>Rede Social</p>
               </a>
             </div>
-            <div className="flex justify-start mb-5">
+            <div className="flex justify-start mb-9">
               <a
                 href="mailto:lucasnini@lucasnini.com.br"
                 target="_blank"

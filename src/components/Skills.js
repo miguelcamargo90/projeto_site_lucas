@@ -23,12 +23,9 @@ export default function Skills() {
             className="text-white-1000 cursor-pointer shadow-lg"
             onClick={openModal}
           >
-            Nossos &amp; Diferenciais
+            Nossos Diferenciais
           </span>{" "}
           </h1>
-          {/* <p className="text-xl text-white leading-relaxed xl:w-3/5 lg:w-4/5 mx-auto shadow-md">
-            Além de Fachadas e Painéis nós também produzimos{" "} outros produtos de outros materiais com a máxima qualidade.
-          </p> */}
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
