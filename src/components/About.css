@@ -6,3 +6,10 @@
     margin-right: auto; 
     position: contain;
   }
+
+  @media (min-width: 768px) {
+    .text-right.md\\:text-left {
+      text-align: right;
+    }
+  }
+  

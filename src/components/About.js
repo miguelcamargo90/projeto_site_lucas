@@ -19,9 +19,12 @@ export default function About() {
           <div className="bg-opacity-80 backdrop-blur-lg p-6 rounded-lg text-white">
             <h1 className="text-5xl mb-4 font-bold text-align: justify">
               Olá, sou o Lucas Nini!
-              <br className="hidden lg:inline-block text-align: justify" />
-              Tenho 19 anos de experiência em Comunicação Visual, produzindo desde materiais convencionais até grandes projetos.
             </h1>
+            <div className="text-right md:text-left">
+              <h2 className="text-xl md:text-x2 lg:text-2xl leading-relaxed">
+                Tenho 19 anos de experiência em Comunicação Visual, produzindo desde materiais convencionais até grandes projetos.
+              </h2>
+            </div>
           </div>
           <div className="items-right justify-right md:justify-right mt-6 space-x-4">
             <a
