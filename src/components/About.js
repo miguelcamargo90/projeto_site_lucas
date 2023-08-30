@@ -6,20 +6,20 @@ export default function About() {
   return (
     <section id="about" >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-start md:py-20">
-        <div className="md:w-1/2 md:pr-10 text-center md:flex md:flex-col md:items-center">
+        <div className="md:w-1/2 md:pr-10 md:flex md:flex-col">
           <div className="image-container">
             <img
-              className="w-full h-auto object-cover"
+              className="w-full h-full object-cover"
               alt="foto_fundo_topo"
               src="./foto_fundo2.png"
             />
           </div>
         </div>
-        <div className="md:w-1/2 md:pl-8 md:pr-20 text-center md:text-right">
+        <div className="md:w-1/2 md:pl-8 md:pr-20 text-align: justify md:text-right">
           <div className="bg-opacity-80 backdrop-blur-lg p-6 rounded-lg text-white">
-            <h1 className="text-5xl mb-4 font-bold animate-fade-in">
+            <h1 className="text-5xl mb-4 font-bold text-align: justify">
               Olá, sou o Lucas Nini!
-              <br className="hidden lg:inline-block" />
+              <br className="hidden lg:inline-block text-align: justify" />
               Tenho 19 anos de experiência em Comunicação Visual, produzindo desde materiais convencionais até grandes projetos.
             </h1>
           </div>
