@@ -16,7 +16,7 @@ export default function Testimonials() {
               <div className="h-full bg-gray-500 bg-opacity-40 p-3 rounded">
                 <TerminalIcon className="block w-8 text-white-500 mb-4" />
                 <p className="leading-relaxed mb-6">{project.description}</p>
-                <div className="inline-flex items-center">
+                <div className="inline-flex items-center text-white">
                   <img
                     alt="project"
                     src={project.image}

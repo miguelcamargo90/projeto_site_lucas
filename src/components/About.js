@@ -11,7 +11,7 @@ export default function About() {
             <img
               className="w-full h-full object-cover"
               alt="foto_fundo_topo"
-              src="./foto_fundo2.png"
+              src="./foto_fundo2.jpeg"
             />
           </div>
         </div>
