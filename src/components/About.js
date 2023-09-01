@@ -17,13 +17,15 @@ export default function About() {
         </div>
         <div className="md:w-1/2 md:pl-8 md:pr-20 text-align: justify md:text-right">
           <div className="bg-opacity-80 backdrop-blur-lg p-6 rounded-lg text-white">
-            <h1 className="text-5xl mb-4 font-bold text-align: justify">
-              Olá, sou o Lucas Nini!
-            </h1>
-            <div className="text-right md:text-left">
-              <h2 className="text-xl md:text-x2 lg:text-2xl leading-relaxed">
-                Tenho 19 anos de experiência em Comunicação Visual, produzindo desde materiais convencionais até grandes projetos.
-              </h2>
+          <div className="text-with-background">
+              <h1 className="text-5xl mb-4 font-bold text-align: justify">
+                Olá, sou o Lucas Nini!
+              </h1>
+              <div className="text-right md:text-left">
+                <h2 className="text-xl md:text-x2 lg:text-2xl leading-relaxed">
+                  Tenho 19 anos de experiência em Comunicação Visual, produzindo desde materiais convencionais até grandes projetos.
+                </h2>
+              </div>
             </div>
           </div>
           <div className="items-right justify-right md:justify-right mt-6 space-x-4">

@@ -36,30 +36,26 @@ export default function Projects() {
           </h1>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className={`sm:w-1/2 w-full p-4 cursor-pointer`}
-              onClick={() => openProjectModal(project.type)}
-            >
-              <div className="relative group">
-                <div className="relative">
-                  <img
-                    alt="projetos"
-                    src={project.image["capa_" + project.type] || images.capa_default}
-                    className={`w-full h-full object-cover object-center`}
-                    style={{ maxHeight: "400px" }}
-                  />
-                  <div className={`w-full h-full object-cover object-center`}>
-                    <h2 className="text-white font-semibold text-lg">
-                      {project.title}
-                    </h2>
-                  </div>
-                  <div className="absolute inset-0 border-4 border-blue-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                </div>
-              </div>
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className={`sm:w-1/2 w-full p-4 cursor-pointer`}
+            onClick={() => openProjectModal(project.type)}
+          >
+            <div className="relative group">
+              <img
+                alt="projetos"
+                src={project.image["capa_" + project.type] || images.capa_default}
+                className={`w-full h-full object-cover object-center rounded-lg mt-12`}
+                style={{ maxHeight: "300px" }}
+              />
+              <h2 className="absolute top-0 left-0 text-white bg-red-500 px-4 py-2 rounded-lg title-image">
+                {project.title}
+              </h2>
+              <div className="absolute inset-0 border-4 border-blue-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </div>
-          ))}
+          </div>
+        ))}
         </div>
       </div>
   

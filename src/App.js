@@ -34,7 +34,6 @@ export default function App() {
           alt="WhatsApp"
           className="whatsapp-icon-img"
         />
-        <p>Faça seu Orçamento!</p>
       </a>
     </div>
   );

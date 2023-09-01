@@ -12,4 +12,13 @@
       text-align: right;
     }
   }
+
+  .text-with-background {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+    padding: 6px; /* Ajuste o preenchimento conforme necessário */
+    border-radius: 5px; /* Ajuste o raio da borda conforme necessário */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adicione uma sombra ao texto */
+    color: white; /* Cor do texto */
+  }
+  
   

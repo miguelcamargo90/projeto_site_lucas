@@ -25,6 +25,16 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.title-image {
+  width: 100%;
+  position: absolute;
+  top: -48px; /* Ajuste a altura conforme necessário */
+  color: white;
+  background-color: rgba(86, 71, 178, 0.278);
+  cursor: pointer;
+  font-size: 24px; /* Defina o tamanho da fonte desejado */
+}
   
   .image-capa {
     width: 100%;
