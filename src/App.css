@@ -8,13 +8,11 @@ body {
     position: relative;
   }
   
-  .carousel-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  body {
+    background-image: url("../src/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
   .whatsapp-icon {

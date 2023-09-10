@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import BackgroundCarousel from "./BackgroundCarousel"; // Importe o componente
 import About from "./components/About";
 import AboutUs from "./components/About_us";
 import Contact from "./components/Contact";
@@ -14,7 +13,6 @@ export default function App() {
   return (
     <div className="app-container">
       <Navbar />
-      <BackgroundCarousel /> 
       <div className="content">
         <About />
         <AboutUs />
