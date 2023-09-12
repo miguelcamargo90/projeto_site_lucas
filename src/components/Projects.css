@@ -42,16 +42,6 @@
     max-height: 400px;
   }
   
-  .carousel-container {
-    position: relative;
-  }
-  
-  .carousel-card {
-    position: relative;
-    border-radius: 0; /* Remova o border-radius */
-    overflow: visible; /* Altere o overflow para visible */
-  }
-  
   .carousel-overlay {
     position: absolute;
     inset: 0;
@@ -60,19 +50,31 @@
     transition: opacity 0.3s ease;
   }
   
-  .carousel-card:hover .carousel-overlay {
-    opacity: 1;
-  }
-  
   .carousel-container {
     position: relative;
+    width: 100%;
+    max-height: 80vh; /* Limite a altura do carousel a 80% da altura da viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Impede o estouro de conteúdo */
+  }
+  
+  .carousel-card {
+    display: flex; /* Use flex para dimensionar a imagem e a div pai */
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden; /* Impede o estouro de conteúdo */
   }
   
   .carousel-image {
-    object-fit: contain;
-    max-width: 100%;
-    max-height: 100%;
+    width: 500px; /* Defina o tamanho desejado */
+    height: 500px; /* Defina o tamanho desejado */
+    object-fit: contain; /* Ajusta a imagem para caber sem cortes */
   }
+  
   
   .carousel-control {
     position: absolute;

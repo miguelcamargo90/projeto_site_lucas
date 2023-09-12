@@ -88,13 +88,17 @@ export default function Projects() {
                     images.capa_default
                   }
                   alt="projetos"
-                  className="carousel-image"
+                  className="carousel-image" // Aplicando a classe CSS
                 />
               </div>
               {Array.isArray(images[selectedType].images) &&
                 images[selectedType].images.map((image, index) => (
                   <div key={index}>
-                    <img src={image} alt="projetos" className="carousel-image" />
+                    <img
+                      src={image}
+                      alt="projetos"
+                      className="carousel-image" // Aplicando a classe CSS
+                    />
                   </div>
                 ))}
             </Carousel>
